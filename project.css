@@ -1,0 +1,380 @@
+
+.Main{
+    padding-left: 4.5%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    width: Hug (165px)px;
+    height: Fixed (48px)px;
+    gap: 12px;
+    justify-self: start;
+}
+.neonfolio{
+    display: flex;
+    font-family: Source Serif 4;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    justify-content:left;
+    width: 165px;
+    height: 28px;
+}
+.links{
+    width: 453px;
+    height: 32px;
+}
+.nav{
+    display: inline;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 80px;
+    height: 32px;
+    padding: 10px;
+}
+.nav:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 30px;
+}
+.heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.img1{ 
+    width: 1344px;
+    height: 672px;
+    border-radius: 28px;
+    border: 1.5px 0px 0px 0px;
+    text-align: center;
+}
+#first-descpt{
+    width: 1,344px;
+    height: 360px;
+    padding: 96px 0px 96px 0px;
+    gap: 96px;
+    border: 0px 0px 1.5px 0px;
+}
+.container{
+    display: flex;
+    width: 1,344px;
+    height: 168px;
+    padding: 48px 0px 48px 0px;
+    gap: 96px;
+    justify-content: space-between;
+}
+.portfolio{
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 624px;
+    height: 52px;
+}
+.description{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    width: 624px;
+    height: 64px;
+}
+.project-flex{
+    margin: 20px;
+}
+.row1, .row2, .row3{
+    display: flex;
+    gap:30px;
+}
+img{
+    width: 416px;
+    height: 277px;
+    border-radius: 8px;
+    border: 1.5px;
+    /* width: 100%; */
+}
+.project-name{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.project-despt{
+    font-family: Plus Jakarta Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:rgba(20, 46, 20, 0.62);
+}
+.text-para{
+    display: flex;
+    width: 1,344px;
+    height: 250px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    justify-content: end;
+}
+.text{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 648px;
+    height: 154px;
+    color:rgba(27, 40, 27, 1);
+}
+.about{
+    display: flex;
+    width: 1,344px;
+    height: 348px;
+    padding: 96px 0px 96px 0px;
+    border: 0px 0px 1.5px 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-descpt{
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    width: 900px;
+    height: 156px;
+    max-width: 900px;
+}
+.overboarding{
+    display: flex;
+    width: 1,344px;
+    height: 700px;
+    min-height: 700px;
+    padding: 200px 0px 0px 0px;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 400px;
+    height: 276px;
+    gap: 32px;
+}
+.instruction-container{
+    width: 400px;
+    height: 60px;
+    gap: 8px;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.descpt{
+    display: flex;
+    justify-content: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 20px;
+    margin-left: 30px;
+}
+.input-container{
+    width: 600px;
+    height: 64px;
+    padding: 10px;
+    margin-left: 20px;
+ }
+ .input{
+    width: 30px;
+    height: 50px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(37, 126, 37, 0.09);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+} 
+.submit{
+    width: 100%;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    background-color:rgba(0, 255, 0, 1);
+    margin: 20px;
+    border: none;
+    font-size: 15px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+.submit:active{
+    opacity: 0.5;
+}
+.skip{
+    display: flex;
+    justify-content: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(0, 161, 0, 1);
+    margin-left: 40px;
+}
+.skip:hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+.skip:active{
+    opacity: 0.5;
+}
+.landing-page{
+    width: 1,344px;
+    height: 1,032px;
+    padding: 96px 0px 96px 0px;
+    gap: 48px;
+    border: 0px 0px 1.5px 0px;
+}
+.stay-connected{
+    font-family: Plus Jakarta Sans;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img2{
+    width: 1344px;
+    height: 672px;
+    gap: 0px;
+    border-radius: 28px;
+    border: 1.5px 0px 0px 0px;
+}
+.footer{
+    width: 1,344px;
+    height: 168px;
+    padding: 96px 0px 24px 0px;
+    gap: 24px;
+    border: 1.5px 0px 0px 0px;
+}
+.footer-container{
+    display: flex;
+    width: 1,344px;
+    height: 48px;
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-link{
+    width: 230px;
+    height: 32px;
+}
+.link-text{
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.contact-button{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: 128px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    border: 1.5px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.contact-button:active{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 480px){
+    .heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .portfolio {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-descpt {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .stay-connected{
+        text-align: center;
+    }
+    .footer-container {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-button {
+        width: 80%;
+    }
+
+    .img1, .img2 {
+        width: 100%;
+        height: auto;
+    }
+}
