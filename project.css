@@ -330,51 +330,181 @@ img{
     opacity: 0.5;
 }
 
-@media screen and (max-width: 480px){
+@media (max-width: 1024px) {
     .heading {
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 7vw;
+    }
+    .projects {
+        flex-basis: calc(100% / 3 - 20px);
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Main {
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
-    .portfolio {
-        font-size: 28px;
-        line-height: 32px;
-    }
-
-    .description {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .text {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .about{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .about-descpt {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .stay-connected{
-        text-align: center;
-    }
-    .footer-container {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-        text-align: center;
-    }
-
-    .contact-button {
-        width: 80%;
+    .heading {
+        font-size: 80px;
+        line-height: 90px;
     }
 
     .img1, .img2 {
         width: 100%;
         height: auto;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .links {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav {
+        font-size: 24px;
+        padding: 8px;
+    }
+
+    .portfolio {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .project-flex {
+        margin: 10px;
+    }
+
+    .row1, .row2, .row3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .projects img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-para {
+        height: auto;
+        padding: 24px 0;
+    }
+
+    .text {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-descpt {
+        font-size: 36px;
+        width: 100%;
+        height: auto;
+    }
+
+    .stay-connected {
+        font-size: 80px;
+        line-height: 90px;
+    }
+}
+
+/* Mobile Styles (up to 767px) */
+@media screen and (max-width: 767px) {
+    .heading {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .neonfolio {
+        font-size: 32px;
+    }
+
+    .nav {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .portfolio {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .project-name {
+        font-size: 18px;
+    }
+
+    .project-despt {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .about-descpt {
+        font-size: 28px;
+        line-height: 36px;
+        padding: 20px;
+    }
+
+    .overboarding {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .main-container {
+        width: 90%;
+    }
+
+    .instruction-container {
+        width: 100%;
+    }
+
+    .input-container {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .input {
+        width: 25px;
+        height: 40px;
+        margin: 0 5px;
+    }
+
+    .stay-connected {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .link-text {
+        font-size: 20px;
+    }
+
+    .contact-button {
+        margin-right: 0;
     }
 }
